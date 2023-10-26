@@ -1,0 +1,46 @@
+
+/* styles for header tag */
+header{
+    background-image: linear-gradient(to right, white, rgb(128, 246, 246));
+}
+.top_head{
+    justify-content: space-between;
+    border: 2px solid;
+    display: flex;
+}
+.top_head img{
+    margin-left: 20px;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+}
+.top_head ul{
+    display: flex;
+    font-size: larger;
+}
+.top_head li{
+    list-style-type: none;
+    padding: 20px;
+}
+.top_head a{
+    text-decoration: none;
+    color: black;
+}
+.top_head a:hover{
+    color: rgb(26, 137, 234);
+}
+#navbar{
+    float: right;
+}
+
+body{
+    background-color: #caf0f8;
+}
+
+footer{
+    /* clear: both; */
+    border-top: 2px solid black;
+    text-align: center;
+    font-weight: bold;
+}
